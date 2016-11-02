@@ -1,0 +1,29 @@
+module PC (clk,rst_n,halt, newPC , updatePC , increamentPC,wr_en,PC);
+	
+	input clk,rst_n,halt,wr_en;
+
+	input updatePC , increamentPC;
+	input [15:0] newPC;
+	
+	output [15:0] PC;
+
+	reg [15:0] PC_reg;
+
+	always@(posedge clk)	begin
+		if(~rst_n)
+			PC_reg <= 0;
+		else begin
+			if(wr_en)begin
+				if(halt)
+					PC_reg <= PC_reg;
+				else if(updatePC)
+					PC_reg <= newPC;				
+				else if(increamentPC)
+					PC_reg <= PC_reg +1;
+			end 
+		end
+	end
+
+	assign PC = PC_reg;
+
+endmodule

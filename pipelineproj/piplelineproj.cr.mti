@@ -1,0 +1,120 @@
+{D:/ECE 552 Into to Comp Arch/projects/pipelineproj/controller.v} {1 {vlog -work work -stats=none {D:/ECE 552 Into to Comp Arch/projects/pipelineproj/controller.v}
+Model Technology ModelSim PE Student Edition vlog 10.4a Compiler 2015.03 Apr  7 2015
+-- Compiling module controller
+
+Top level modules:
+	controller
+
+} {} {}} {D:/ECE 552 Into to Comp Arch/projects/pipelineproj/forwardUnit.v} {1 {vlog -work work -stats=none {D:/ECE 552 Into to Comp Arch/projects/pipelineproj/forwardUnit.v}
+Model Technology ModelSim PE Student Edition vlog 10.4a Compiler 2015.03 Apr  7 2015
+-- Compiling module forwardUnit
+
+Top level modules:
+	forwardUnit
+
+} {} {}} {D:/ECE 552 Into to Comp Arch/projects/pipelineproj/testbench.v} {1 {vlog -work work -stats=none {D:\ECE 552 Into to Comp Arch\projects\pipelineproj\testbench.v}
+Model Technology ModelSim PE Student Edition vlog 10.4a Compiler 2015.03 Apr  7 2015
+-- Compiling module testbench
+
+Top level modules:
+	testbench
+
+} {} {}} {D:/ECE 552 Into to Comp Arch/projects/pipelineproj/data_mem.v} {1 {vlog -work work -stats=none {D:\ECE 552 Into to Comp Arch\projects\pipelineproj\data_mem.v}
+Model Technology ModelSim PE Student Edition vlog 10.4a Compiler 2015.03 Apr  7 2015
+-- Compiling module DM
+
+Top level modules:
+	DM
+
+} {} {}} {D:/ECE 552 Into to Comp Arch/projects/pipelineproj/satAdder.v} {1 {vlog -work work -stats=none {D:/ECE 552 Into to Comp Arch/projects/pipelineproj/satAdder.v}
+Model Technology ModelSim PE Student Edition vlog 10.4a Compiler 2015.03 Apr  7 2015
+-- Compiling module satAdder
+
+Top level modules:
+	satAdder
+
+} {} {}} {D:/ECE 552 Into to Comp Arch/projects/pipelineproj/rf_pipelined.v} {1 {vlog -work work -stats=none {D:\ECE 552 Into to Comp Arch\projects\pipelineproj\rf_pipelined.v}
+Model Technology ModelSim PE Student Edition vlog 10.4a Compiler 2015.03 Apr  7 2015
+-- Compiling module rf
+
+Top level modules:
+	rf
+
+} {} {}} {D:/ECE 552 Into to Comp Arch/projects/pipelineproj/EXMEMreg.v} {1 {vlog -work work -stats=none {D:/ECE 552 Into to Comp Arch/projects/pipelineproj/EXMEMreg.v}
+Model Technology ModelSim PE Student Edition vlog 10.4a Compiler 2015.03 Apr  7 2015
+-- Compiling module EXMEMreg
+
+Top level modules:
+	EXMEMreg
+
+} {} {}} {D:/ECE 552 Into to Comp Arch/projects/pipelineproj/clockGenerator.v} {1 {vlog -work work -stats=none {D:/ECE 552 Into to Comp Arch/projects/pipelineproj/clockGenerator.v}
+Model Technology ModelSim PE Student Edition vlog 10.4a Compiler 2015.03 Apr  7 2015
+-- Compiling module clockGenerator
+
+Top level modules:
+	clockGenerator
+
+} {} {}} {D:/ECE 552 Into to Comp Arch/projects/pipelineproj/MEMWBreg.v} {1 {vlog -work work -stats=none {D:/ECE 552 Into to Comp Arch/projects/pipelineproj/MEMWBreg.v}
+Model Technology ModelSim PE Student Edition vlog 10.4a Compiler 2015.03 Apr  7 2015
+-- Compiling module MEMWBreg
+
+Top level modules:
+	MEMWBreg
+
+} {} {}} {D:/ECE 552 Into to Comp Arch/projects/pipelineproj/HazardDec.v} {1 {vlog -work work -stats=none {D:/ECE 552 Into to Comp Arch/projects/pipelineproj/HazardDec.v}
+Model Technology ModelSim PE Student Edition vlog 10.4a Compiler 2015.03 Apr  7 2015
+-- Compiling module HazardDec
+
+Top level modules:
+	HazardDec
+
+} {} {}} {D:/ECE 552 Into to Comp Arch/projects/pipelineproj/instr_mem.v} {1 {vlog -work work -stats=none {D:/ECE 552 Into to Comp Arch/projects/pipelineproj/instr_mem.v}
+Model Technology ModelSim PE Student Edition vlog 10.4a Compiler 2015.03 Apr  7 2015
+-- Compiling module IM
+
+Top level modules:
+	IM
+
+} {} {}} {D:/ECE 552 Into to Comp Arch/projects/pipelineproj/flag_register.v} {1 {vlog -work work -stats=none {D:/ECE 552 Into to Comp Arch/projects/pipelineproj/flag_register.v}
+Model Technology ModelSim PE Student Edition vlog 10.4a Compiler 2015.03 Apr  7 2015
+-- Compiling module flag_register
+
+Top level modules:
+	flag_register
+
+} {} {}} {D:/ECE 552 Into to Comp Arch/projects/pipelineproj/IDEXreg.v} {1 {vlog -work work -stats=none {D:/ECE 552 Into to Comp Arch/projects/pipelineproj/IDEXreg.v}
+Model Technology ModelSim PE Student Edition vlog 10.4a Compiler 2015.03 Apr  7 2015
+-- Compiling module IDEXreg
+
+Top level modules:
+	IDEXreg
+
+} {} {}} {D:/ECE 552 Into to Comp Arch/projects/pipelineproj/singleCPU.v} {1 {vlog -work work -stats=none {D:/ECE 552 Into to Comp Arch/projects/pipelineproj/singleCPU.v}
+Model Technology ModelSim PE Student Edition vlog 10.4a Compiler 2015.03 Apr  7 2015
+-- Compiling module singleCPU
+
+Top level modules:
+	singleCPU
+
+} {} {}} {D:/ECE 552 Into to Comp Arch/projects/pipelineproj/IFIDreg.v} {1 {vlog -work work -stats=none {D:\ECE 552 Into to Comp Arch\projects\pipelineproj\IFIDreg.v}
+Model Technology ModelSim PE Student Edition vlog 10.4a Compiler 2015.03 Apr  7 2015
+-- Compiling module IFIDreg
+
+Top level modules:
+	IFIDreg
+
+} {} {}} {D:/ECE 552 Into to Comp Arch/projects/pipelineproj/ALU.v} {1 {vlog -work work -stats=none {D:/ECE 552 Into to Comp Arch/projects/pipelineproj/ALU.v}
+Model Technology ModelSim PE Student Edition vlog 10.4a Compiler 2015.03 Apr  7 2015
+-- Compiling module ALU
+
+Top level modules:
+	ALU
+
+} {} {}} {D:/ECE 552 Into to Comp Arch/projects/pipelineproj/PC.v} {1 {vlog -work work -stats=none {D:\ECE 552 Into to Comp Arch\projects\pipelineproj\PC.v}
+Model Technology ModelSim PE Student Edition vlog 10.4a Compiler 2015.03 Apr  7 2015
+-- Compiling module PC
+
+Top level modules:
+	PC
+
+} {} {}}

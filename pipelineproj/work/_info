@@ -1,0 +1,380 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+dD:/ECE 552 Into to Comp Arch/projects/Solution to Project 0
+vALU
+Z0 !s110 1477883068
+!i10b 1
+!s100 i]KXG8W;7Fh_>L?2^4mf@2
+I3QWCFnITJWTOzM;O@EO>92
+Z1 VDg1SIo80bB@j0V0VzS_@n1
+Z2 dD:/ECE 552 Into to Comp Arch/projects/pipelineproj
+w1477544692
+8D:/ECE 552 Into to Comp Arch/projects/pipelineproj/ALU.v
+FD:/ECE 552 Into to Comp Arch/projects/pipelineproj/ALU.v
+L0 1
+Z3 OP;L;10.4a;61
+r1
+!s85 0
+31
+Z4 !s108 1477883067.000000
+!s107 D:/ECE 552 Into to Comp Arch/projects/pipelineproj/ALU.v|
+!s90 -reportprogress|300|-work|work|-stats=none|D:/ECE 552 Into to Comp Arch/projects/pipelineproj/ALU.v|
+!s101 -O0
+!i113 1
+Z5 o-work work -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact -O0
+n@a@l@u
+vclockGenerator
+R0
+!i10b 1
+!s100 Jh3N9:UVgW0Z?B?ZN=hXI1
+I7Uimb0WFhgXA4mQQGnJbd2
+R1
+R2
+w1474828877
+8D:/ECE 552 Into to Comp Arch/projects/pipelineproj/clockGenerator.v
+FD:/ECE 552 Into to Comp Arch/projects/pipelineproj/clockGenerator.v
+L0 1
+R3
+r1
+!s85 0
+31
+Z6 !s108 1477883068.000000
+!s107 D:/ECE 552 Into to Comp Arch/projects/pipelineproj/clockGenerator.v|
+!s90 -reportprogress|300|-work|work|-stats=none|D:/ECE 552 Into to Comp Arch/projects/pipelineproj/clockGenerator.v|
+!s101 -O0
+!i113 1
+R5
+nclock@generator
+vcontroller
+!s110 1477964226
+!i10b 1
+!s100 QMo14mR;;Vjf@5b0R7Oaz2
+I<I`mc7S]V65UKdS[@O8@E0
+R1
+R2
+w1477964221
+8D:/ECE 552 Into to Comp Arch/projects/pipelineproj/controller.v
+FD:/ECE 552 Into to Comp Arch/projects/pipelineproj/controller.v
+L0 1
+R3
+r1
+!s85 0
+31
+!s108 1477964226.000000
+!s107 D:/ECE 552 Into to Comp Arch/projects/pipelineproj/controller.v|
+!s90 -reportprogress|300|-work|work|-stats=none|D:/ECE 552 Into to Comp Arch/projects/pipelineproj/controller.v|
+!s101 -O0
+!i113 1
+R5
+vDM
+Z7 !s110 1477883069
+!i10b 1
+!s100 Jn_:oJCfE0edd9_@?bmV00
+IZ]HTz^Nhf:Ik1dAa84Me[3
+R1
+R2
+w1477415296
+8D:\ECE 552 Into to Comp Arch\projects\pipelineproj\data_mem.v
+FD:\ECE 552 Into to Comp Arch\projects\pipelineproj\data_mem.v
+L0 1
+R3
+r1
+!s85 0
+31
+Z8 !s108 1477883069.000000
+!s107 D:\ECE 552 Into to Comp Arch\projects\pipelineproj\data_mem.v|
+!s90 -reportprogress|300|-work|work|-stats=none|D:\ECE 552 Into to Comp Arch\projects\pipelineproj\data_mem.v|
+!s101 -O0
+!i113 1
+R5
+n@d@m
+vEXMEMreg
+!s110 1477955789
+!i10b 1
+!s100 DUjI_IOD`S?15RWDb;hn`3
+If1[GKc@^0hc[KR;n85lL00
+R1
+R2
+w1477955783
+8D:/ECE 552 Into to Comp Arch/projects/pipelineproj/EXMEMreg.v
+FD:/ECE 552 Into to Comp Arch/projects/pipelineproj/EXMEMreg.v
+L0 1
+R3
+r1
+!s85 0
+31
+!s108 1477955789.000000
+!s107 D:/ECE 552 Into to Comp Arch/projects/pipelineproj/EXMEMreg.v|
+!s90 -reportprogress|300|-work|work|-stats=none|D:/ECE 552 Into to Comp Arch/projects/pipelineproj/EXMEMreg.v|
+!s101 -O0
+!i113 1
+R5
+n@e@x@m@e@mreg
+vflag_register
+R0
+!i10b 1
+!s100 l:geEzfjkafbBV9=SkFO=3
+I;oAInN=XA892E36D:2LF=1
+R1
+R2
+w1477541213
+8D:/ECE 552 Into to Comp Arch/projects/pipelineproj/flag_register.v
+FD:/ECE 552 Into to Comp Arch/projects/pipelineproj/flag_register.v
+L0 1
+R3
+r1
+!s85 0
+31
+R6
+!s107 D:/ECE 552 Into to Comp Arch/projects/pipelineproj/flag_register.v|
+!s90 -reportprogress|300|-work|work|-stats=none|D:/ECE 552 Into to Comp Arch/projects/pipelineproj/flag_register.v|
+!s101 -O0
+!i113 1
+R5
+vforwardUnit
+!s110 1477952886
+!i10b 1
+!s100 LP^:OjLhD5lD:R<XcmIlW1
+IjKX]MbIDY?@YPD83>RN0c3
+R1
+R2
+w1477415162
+8D:/ECE 552 Into to Comp Arch/projects/pipelineproj/forwardUnit.v
+FD:/ECE 552 Into to Comp Arch/projects/pipelineproj/forwardUnit.v
+L0 1
+R3
+r1
+!s85 0
+31
+!s108 1477952886.000000
+!s107 D:/ECE 552 Into to Comp Arch/projects/pipelineproj/forwardUnit.v|
+!s90 -reportprogress|300|-work|work|-stats=none|D:/ECE 552 Into to Comp Arch/projects/pipelineproj/forwardUnit.v|
+!s101 -O0
+!i113 1
+R5
+nforward@unit
+vHazardDec
+!s110 1477946925
+!i10b 1
+!s100 fGZe?Bcjflj`_X9>6jK?X2
+IEaFdNUW>H1ZO`d^DAL;@61
+R1
+R2
+w1477946917
+8D:/ECE 552 Into to Comp Arch/projects/pipelineproj/HazardDec.v
+FD:/ECE 552 Into to Comp Arch/projects/pipelineproj/HazardDec.v
+L0 1
+R3
+r1
+!s85 0
+31
+!s108 1477946925.000000
+!s107 D:/ECE 552 Into to Comp Arch/projects/pipelineproj/HazardDec.v|
+!s90 -reportprogress|300|-work|work|-stats=none|D:/ECE 552 Into to Comp Arch/projects/pipelineproj/HazardDec.v|
+!s101 -O0
+!i113 1
+R5
+n@hazard@dec
+vIDEXreg
+R0
+!i10b 1
+!s100 lgzFN1k^zFQaTQAQbnb5k1
+ICD:[Cklb^3=OTl`OJZeNh3
+R1
+R2
+w1477540629
+8D:/ECE 552 Into to Comp Arch/projects/pipelineproj/IDEXreg.v
+FD:/ECE 552 Into to Comp Arch/projects/pipelineproj/IDEXreg.v
+L0 1
+R3
+r1
+!s85 0
+31
+R6
+!s107 D:/ECE 552 Into to Comp Arch/projects/pipelineproj/IDEXreg.v|
+!s90 -reportprogress|300|-work|work|-stats=none|D:/ECE 552 Into to Comp Arch/projects/pipelineproj/IDEXreg.v|
+!s101 -O0
+!i113 1
+R5
+n@i@d@e@xreg
+vIFIDreg
+R0
+!i10b 1
+!s100 2BlK9me1>:NmFVLYDF00k0
+IG`n0S`VO0;[jfiTD0m3MW2
+R1
+R2
+w1477540919
+8D:\ECE 552 Into to Comp Arch\projects\pipelineproj\IFIDreg.v
+FD:\ECE 552 Into to Comp Arch\projects\pipelineproj\IFIDreg.v
+L0 1
+R3
+r1
+!s85 0
+31
+R6
+!s107 D:\ECE 552 Into to Comp Arch\projects\pipelineproj\IFIDreg.v|
+!s90 -reportprogress|300|-work|work|-stats=none|D:\ECE 552 Into to Comp Arch\projects\pipelineproj\IFIDreg.v|
+!s101 -O0
+!i113 1
+R5
+n@i@f@i@dreg
+vIM
+!s110 1477944509
+!i10b 1
+!s100 UhLU;Wj0ldRXKQ?Ti^nZl3
+ISc>mb14OkFR74W1aLQ68F2
+R1
+R2
+w1477876782
+8D:/ECE 552 Into to Comp Arch/projects/pipelineproj/instr_mem.v
+FD:/ECE 552 Into to Comp Arch/projects/pipelineproj/instr_mem.v
+L0 1
+R3
+r1
+!s85 0
+31
+!s108 1477944509.000000
+!s107 D:/ECE 552 Into to Comp Arch/projects/pipelineproj/instr_mem.v|
+!s90 -reportprogress|300|-work|work|-stats=none|D:/ECE 552 Into to Comp Arch/projects/pipelineproj/instr_mem.v|
+!s101 -O0
+!i113 1
+R5
+n@i@m
+vMEMWBreg
+!s110 1477955936
+!i10b 1
+!s100 5]:kFN[c[E;d7TPJMYbzb0
+IoJAJgif;4G@VkTYmz?j?52
+R1
+R2
+w1477955930
+8D:/ECE 552 Into to Comp Arch/projects/pipelineproj/MEMWBreg.v
+FD:/ECE 552 Into to Comp Arch/projects/pipelineproj/MEMWBreg.v
+L0 1
+R3
+r1
+!s85 0
+31
+!s108 1477955936.000000
+!s107 D:/ECE 552 Into to Comp Arch/projects/pipelineproj/MEMWBreg.v|
+!s90 -reportprogress|300|-work|work|-stats=none|D:/ECE 552 Into to Comp Arch/projects/pipelineproj/MEMWBreg.v|
+!s101 -O0
+!i113 1
+R5
+n@m@e@m@w@breg
+vPC
+R0
+!i10b 1
+!s100 1Q@54OG=MHjX85oaPT<Dh0
+IlPCBi@]IDfzV;C<nA0:223
+R1
+R2
+w1477867774
+8D:\ECE 552 Into to Comp Arch\projects\pipelineproj\PC.v
+FD:\ECE 552 Into to Comp Arch\projects\pipelineproj\PC.v
+L0 1
+R3
+r1
+!s85 0
+31
+R6
+!s107 D:\ECE 552 Into to Comp Arch\projects\pipelineproj\PC.v|
+!s90 -reportprogress|300|-work|work|-stats=none|D:\ECE 552 Into to Comp Arch\projects\pipelineproj\PC.v|
+!s101 -O0
+!i113 1
+R5
+n@p@c
+vrf
+R7
+!i10b 1
+!s100 cHT9`27?0XLH48mU8gzFC3
+IR5[G2JX`idEF=dbU?cLEP0
+R1
+R2
+w1477415299
+8D:\ECE 552 Into to Comp Arch\projects\pipelineproj\rf_pipelined.v
+FD:\ECE 552 Into to Comp Arch\projects\pipelineproj\rf_pipelined.v
+L0 1
+R3
+r1
+!s85 0
+31
+R8
+!s107 D:\ECE 552 Into to Comp Arch\projects\pipelineproj\rf_pipelined.v|
+!s90 -reportprogress|300|-work|work|-stats=none|D:\ECE 552 Into to Comp Arch\projects\pipelineproj\rf_pipelined.v|
+!s101 -O0
+!i113 1
+R5
+vsatAdder
+R0
+!i10b 1
+!s100 UUI<Sd0ER58PelgP9Rz341
+I7laOXVJe1X9YbKeNFcoT`0
+R1
+R2
+w1474835150
+8D:/ECE 552 Into to Comp Arch/projects/pipelineproj/satAdder.v
+FD:/ECE 552 Into to Comp Arch/projects/pipelineproj/satAdder.v
+L0 1
+R3
+r1
+!s85 0
+31
+R6
+!s107 D:/ECE 552 Into to Comp Arch/projects/pipelineproj/satAdder.v|
+!s90 -reportprogress|300|-work|work|-stats=none|D:/ECE 552 Into to Comp Arch/projects/pipelineproj/satAdder.v|
+!s101 -O0
+!i113 1
+R5
+nsat@adder
+vsingleCPU
+!s110 1477963721
+!i10b 1
+!s100 ;kIfk4bE5h8HO=>UDQm6`3
+Ik_KEnbX6=1AFEFXNCk<gT2
+R1
+R2
+w1477963715
+8D:/ECE 552 Into to Comp Arch/projects/pipelineproj/singleCPU.v
+FD:/ECE 552 Into to Comp Arch/projects/pipelineproj/singleCPU.v
+L0 1
+R3
+r1
+!s85 0
+31
+!s108 1477963721.000000
+!s107 D:/ECE 552 Into to Comp Arch/projects/pipelineproj/singleCPU.v|
+!s90 -reportprogress|300|-work|work|-stats=none|D:/ECE 552 Into to Comp Arch/projects/pipelineproj/singleCPU.v|
+!s101 -O0
+!i113 1
+R5
+nsingle@c@p@u
+vtestbench
+!s110 1477883067
+!i10b 1
+!s100 FWl3ZB5h[7F64PQjZ`nhR3
+Ii@UlT]PUfZ>Ybf<Ek3EH01
+R1
+R2
+w1477875531
+8D:\ECE 552 Into to Comp Arch\projects\pipelineproj\testbench.v
+FD:\ECE 552 Into to Comp Arch\projects\pipelineproj\testbench.v
+L0 1
+R3
+r1
+!s85 0
+31
+R4
+!s107 D:\ECE 552 Into to Comp Arch\projects\pipelineproj\testbench.v|
+!s90 -reportprogress|300|-work|work|-stats=none|D:\ECE 552 Into to Comp Arch\projects\pipelineproj\testbench.v|
+!s101 -O0
+!i113 1
+R5

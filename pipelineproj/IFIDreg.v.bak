@@ -1,0 +1,25 @@
+module IFIDreg(clk,reset,wr_IFID,IFIDclear,inputIM,nextPC,instruct,newPC);
+
+input clk, reset,wr_IFID,IFIDclear;
+input [15:0] nextPC, inputIM;
+
+output [15:0] instruct,newPC;
+
+reg [15:0] instruction,outPC;
+
+always@(posedge clk)begin
+	if(~reset)begin
+		instruction<=16'h0000;
+		outPC<=16'h0000;
+	end else if(IFIDclear) begin
+		instruction<=16'h0000;
+		outPC<=16'h0000;
+	end else if(wr_IFID) begin
+		instruction<=inputIM;
+		outPC<=nextPC;
+	end
+end
+
+assign newPC = outPC;
+assign instruct = instruction;
+endmodule 

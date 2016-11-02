@@ -1,0 +1,16 @@
+module controller(instruct,MemWrite,MemRead,RegWrite,MemtoDist,opcode);
+
+input [15:0] instruct;
+
+output MemWrite, MemRead,RegWrite, MemtoDist;
+output [3:0] opcode;
+
+
+assign RegWrite = ((instruct[15] == 0) | (instruct[15:13] == 3'b101) | (instruct[15:12] == 4'b1101)|(instruct[15:12]==4'b1000));
+assign MemWrite = (instruct[15:12] == 4'b1001)? 1:0;
+assign MemRead = (instruct[15:12] == 4'b1000)? 1:0;
+assign MemtoDist = ((instruct[15] == 0) | (instruct[15:12]==4'b1000)|(instruct[15:13]==3'b101))? 0:1;//result from alu? pass 0 else pass 1
+assign opcode = instruct[15:12];
+
+
+endmodule 
